@@ -12,11 +12,15 @@
 // the project's config changing)
 
 const wp = require('@cypress/webpack-preprocessor');
+const cypressReplay = require('@replayio/cypress');
 const webpackConfig = require('./webpack.config');
 
-module.exports = (on) => {
+module.exports = (on, config) => {
   const options = {
     webpackOptions: webpackConfig,
   };
   on('file:preprocessor', wp(options));
+
+  cypressReplay.default(on, config);
+  return config;
 };
