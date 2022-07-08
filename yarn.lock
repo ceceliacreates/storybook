@@ -2583,6 +2583,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@colors/colors@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@colors/colors@npm:1.5.0"
+  checksum: eb42729851adca56d19a08e48d5a1e95efd2a32c55ae0323de8119052be0510d4b7a1611f2abcbf28c044a6c11e6b7d38f99fccdad7429300c37a8ea5fb95b44
+  languageName: node
+  linkType: hard
+
 "@compodoc/compodoc@npm:^1.1.18":
   version: 1.1.19
   resolution: "@compodoc/compodoc@npm:1.1.19"
@@ -6190,6 +6197,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@replayio/cypress@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@replayio/cypress@npm:0.2.2"
+  dependencies:
+    "@replayio/replay": ^0.4.4
+  bin:
+    replayio-cypress: bin/replayio-cypress.js
+  checksum: caf3f5eb541a1430bce4add2faecbefb6e36d261018aeccf1df4af545cc2d7216dcf39b1fc293f2541e82e77f65e3de14d3d120cb0c9ac3c9587223982994c90
+  languageName: node
+  linkType: hard
+
+"@replayio/replay@npm:^0.4.4":
+  version: 0.4.4
+  resolution: "@replayio/replay@npm:0.4.4"
+  dependencies:
+    "@replayio/sourcemap-upload": ^1.0.1
+    commander: ^7.2.0
+    is-uuid: ^1.0.2
+    superstruct: ^0.15.4
+    ws: ^7.5.0
+  bin:
+    replay: bin/replay.js
+  checksum: 8bc0f078272aa68008b812ac6deb5b0ea44462f409d4584d8cb00ab31dd8fa5e2024712fa6cdb4c7d0af382d7f6820240cf867ed3f576ca1bba7411290aec7a8
+  languageName: node
+  linkType: hard
+
+"@replayio/sourcemap-upload@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@replayio/sourcemap-upload@npm:1.0.1"
+  dependencies:
+    commander: ^7.2.0
+    debug: ^4.3.1
+    glob: ^7.1.6
+    node-fetch: ^2.6.1
+    string.prototype.matchall: ^4.0.5
+  checksum: 30702cd15a372c769aedba9e05b9940969b7890e41ad7b89c85ee101208ce88ce5b9b517f09ec96b71e127b669d98bf429bb541f75e7f09481c96953b7bd16fe
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-babel@npm:^5.3.1":
   version: 5.3.1
   resolution: "@rollup/plugin-babel@npm:5.3.1"
@@ -8550,6 +8596,7 @@ __metadata:
     "@nrwl/nx-cloud": 12.1.1
     "@nrwl/tao": 12.3.4
     "@nrwl/workspace": 12.3.4
+    "@replayio/cypress": ^0.2.2
     "@rollup/plugin-babel": ^5.3.1
     "@rollup/plugin-commonjs": ^21.0.1
     "@rollup/plugin-json": ^4.1.0
@@ -17016,7 +17063,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-table3@npm:^0.6.1, cli-table3@npm:~0.6.0":
+"cli-table3@npm:^0.6.1":
   version: 0.6.1
   resolution: "cli-table3@npm:0.6.1"
   dependencies:
@@ -17026,6 +17073,19 @@ __metadata:
     colors:
       optional: true
   checksum: 19ab1bb14bd11b3ca3557ce5ad37ef73e489ea814b99f803171e6ac0a3f2ae5fffb6dbc8864e33cdcf2a3644ebc31b488b8e624fd74af44a1c77cc365c143db4
+  languageName: node
+  linkType: hard
+
+"cli-table3@npm:~0.6.0":
+  version: 0.6.2
+  resolution: "cli-table3@npm:0.6.2"
+  dependencies:
+    "@colors/colors": 1.5.0
+    string-width: ^4.2.0
+  dependenciesMeta:
+    "@colors/colors":
+      optional: true
+  checksum: aaa87929d86ba36e651e0280ab34cc28660e13da9dd2b6f8aa36e800c40e331c32bff53597cb9126e8a2e88e7a9025aff9c240350fe69876207d51ba452ef5e0
   languageName: node
   linkType: hard
 
@@ -24912,6 +24972,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"has-symbols@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "has-symbols@npm:1.0.3"
+  checksum: e6922b4345a3f37069cdfe8600febbca791c94988c01af3394d86ca3360b4b93928bbf395859158f88099cb10b19d98e3bbab7c9ff2c1bd09cf665ee90afa2c3
+  languageName: node
+  linkType: hard
+
 "has-tostringtag@npm:^1.0.0":
   version: 1.0.0
   resolution: "has-tostringtag@npm:1.0.0"
@@ -27399,6 +27466,13 @@ __metadata:
   version: 0.2.1
   resolution: "is-utf8@npm:0.2.1"
   checksum: 3ed45e5b4ddfa04ed7e32c63d29c61b980ecd6df74698f45978b8c17a54034943bcbffb6ae243202e799682a66f90fef526f465dd39438745e9fe70794c1ef09
+  languageName: node
+  linkType: hard
+
+"is-uuid@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "is-uuid@npm:1.0.2"
+  checksum: 9e39508b97c724668da7011f77c2f53485784b84a7b9c54fadb6369ebff236caf1912324e3390d0a0495fcddf5f19caa7a55e6cdd0f5b528a1e3210d51d8bd54
   languageName: node
   linkType: hard
 
@@ -39250,6 +39324,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regexp.prototype.flags@npm:^1.4.1":
+  version: 1.4.3
+  resolution: "regexp.prototype.flags@npm:1.4.3"
+  dependencies:
+    call-bind: ^1.0.2
+    define-properties: ^1.1.3
+    functions-have-names: ^1.2.2
+  checksum: 5d797c7fb95f72a52dd9685a485faf0af3c55a4d1f2fafc1153a7be3df036cc3274b195b3ae051ee3d896a01960b446d726206e0d9a90b749e90d93445bb781f
+  languageName: node
+  linkType: hard
+
 "regexpp@npm:^3.0.0, regexpp@npm:^3.1.0":
   version: 3.2.0
   resolution: "regexpp@npm:3.2.0"
@@ -42554,6 +42639,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"string.prototype.matchall@npm:^4.0.5":
+  version: 4.0.7
+  resolution: "string.prototype.matchall@npm:4.0.7"
+  dependencies:
+    call-bind: ^1.0.2
+    define-properties: ^1.1.3
+    es-abstract: ^1.19.1
+    get-intrinsic: ^1.1.1
+    has-symbols: ^1.0.3
+    internal-slot: ^1.0.3
+    regexp.prototype.flags: ^1.4.1
+    side-channel: ^1.0.4
+  checksum: 85bfc0c18b73b90b4a10771bd1afa4c6e42fc78885196dee680b45d023afc81cec6a9944f2f0e25d81f8e5643d5412df5a4649ea624ab375598c6dba0864c9a2
+  languageName: node
+  linkType: hard
+
 "string.prototype.padend@npm:^3.0.0":
   version: 3.1.3
   resolution: "string.prototype.padend@npm:3.1.3"
@@ -42993,6 +43094,13 @@ __metadata:
   dependencies:
     chalk: ^1.0.0
   checksum: ad75dd962fcf751aa76294a0da8e8ae4d5dcc4aae193f6d8efcc588c4c7ef4984c83f51b9bf72153399c007efe49bb44b8fef23f998e81df48d3190c494abf01
+  languageName: node
+  linkType: hard
+
+"superstruct@npm:^0.15.4":
+  version: 0.15.5
+  resolution: "superstruct@npm:0.15.5"
+  checksum: 73ae2043443dcc7868da6e8b4e4895410c79a88e021b514c665161199675ee920d5eadd85bb9dee5a9f515817e62f4b65a67ccb82d29f73259d012afcbcd3ce4
   languageName: node
   linkType: hard
 
@@ -47951,7 +48059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.2.3":
+"ws@npm:^7.2.3, ws@npm:^7.5.0":
   version: 7.5.8
   resolution: "ws@npm:7.5.8"
   peerDependencies:
